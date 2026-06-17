@@ -17,41 +17,42 @@ This project is a REST API built using Node.js and Express.js. It demonstrates R
 * Node.js
 * Express.js
 * Postman
+* Git & GitHub
+
+## Project Architecture
+
+This project follows a simple REST API architecture where requests are sent from the client (Browser/Postman) to the Express server, which processes routes and returns JSON responses.
 
 ## API Endpoints
 
-### GET /
-
-Returns the API welcome message.
-
-### GET /students
-
-Returns all students.
-
-### GET /students/:id
-
-Returns a specific student by ID.
-
-### POST /students
-
-Adds a new student record.
+| Method | Endpoint      | Description                |
+| ------ | ------------- | -------------------------- |
+| GET    | /             | Returns welcome message    |
+| GET    | /students     | Returns all students       |
+| GET    | /students/:id | Returns a specific student |
+| POST   | /students     | Adds a new student         |
 
 ## Installation
 
-1. Clone the repository
-2. Install dependencies
+### Clone the Repository
+
+```bash
+git clone https://github.com/nosheenawan467/Task-1-Nosheen-Afzal.git
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-3. Start the server
+### Start the Server
 
 ```bash
 npm start
 ```
 
-4. Open in browser
+### Open in Browser
 
 ```text
 http://localhost:3000
@@ -69,6 +70,40 @@ http://localhost:3000
 }
 ```
 
+## Screenshots
+
+### Home Route
+
+![Home Route](screenshots/home-route.png)
+
+### Get All Students
+
+![Get All Students](screenshots/get-all-students.png)
+
+### Get Student By ID
+
+![Get Student By ID](screenshots/get-student-by-id.png)
+
+### Student Not Found
+
+![Student Not Found](screenshots/student-not-found.png)
+
+### POST Request in Postman
+
+![POST Student](screenshots/post-student.png)
+
+## Documentation
+
+Project documentation is included in the repository.
+
+## GitHub Repository
+
+https://github.com/nosheenawan467/Task-1-Nosheen-Afzal
+
 ## Author
 
-Nosheen Afzal
+**Nosheen Afzal**
+
+Backend Development Project 1 – REST API Fundamentals
+
+DecodeLabs Industrial Training Program (Batch 2026)

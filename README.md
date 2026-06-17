@@ -74,27 +74,28 @@ http://localhost:3000
 
 ### Home Route
 
-![Home Route](screenshots/home-route.png)
+![Home Route](Screenshots/Home-route.PNG)
 
 ### Get All Students
 
-![Get All Students](screenshots/get-all-students.png)
+![Get All Students](Screenshots/get-all-students.PNG)
 
 ### Get Student By ID
 
-![Get Student By ID](screenshots/get-student-by-id.png)
+![Get Student By ID](Screenshots/student-id-1.PNG)
 
 ### Student Not Found
 
-![Student Not Found](screenshots/student-not-found.png)
+![Student Not Found](Screenshots/student-not-found.PNG)
 
 ### POST Request in Postman
 
-![POST Student](screenshots/post-student.png)
+![POST Student](Screenshots/post-student-success.PNG)
 
 ## Documentation
 
 Project documentation is included in the repository.
+[📄 View Documentation](Documentation/Backend%20Task-1.pdf)
 
 ## GitHub Repository
 
